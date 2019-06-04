@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import PageHeader from "../components/pageHeader"
@@ -8,8 +7,7 @@ export default () => (
     <div id="site">
         <Header />
         <body>
-            <PageHeader headerText="Index" />
-            <Link to="/about/">About</Link>
+            <PageHeader headerText="About" />
         </body>
         <Footer />
     </div>

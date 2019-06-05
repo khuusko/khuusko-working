@@ -3,14 +3,12 @@ import Container from "../components/container"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import PageHeader from "../components/pageHeader"
-import Navigation from "../components/navigation"
 import Post from "../components/post"
 
 export default () => (
     <Container>
         <Header />
         <body>
-            <Navigation />
             <PageHeader headerText="Blog" />
             <Post date="1.1.2017" text="This is a blog post!" />
             <Post date="1.2.2018" text="This is another blog post!" />

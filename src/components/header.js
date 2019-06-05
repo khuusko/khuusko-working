@@ -1,7 +1,12 @@
 import React from "react"
+import Navigation from "./navigation"
 
 export default () => (
-    <header style={{ color: `purple` }}>
-        <h1>Main header</h1>
-    </header>
+    <div>
+        <header style={{ color: `purple` }}>
+            <h1>Main header</h1>
+        </header>
+        <Navigation />
+    </div>
+
 )

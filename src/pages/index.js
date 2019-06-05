@@ -1,15 +1,9 @@
 import React from "react"
-import Container from "../components/container"
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Container from "../components/layout"
 import PageHeader from "../components/pageHeader"
 
 export default () => (
     <Container>
-        <Header />
-        <body>
-            <PageHeader headerText="Index" />
-        </body>
-        <Footer />
+        <PageHeader headerText="Index" />
     </Container>
 )

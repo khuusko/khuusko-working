@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navList li {
+    display: inline;
+}
+
+.navList li {
+    margin: 0 10px 0 10px;
+}

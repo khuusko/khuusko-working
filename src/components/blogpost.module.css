@@ -1,0 +1,17 @@
+.post {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 12px auto;
+}
+
+.date {
+    width: 100%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.postText {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}

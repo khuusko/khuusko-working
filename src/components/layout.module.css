@@ -14,8 +14,10 @@ footer {
 
 .pageContent {
     width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 .pHead {
@@ -23,9 +25,19 @@ footer {
 }
 
 .bLeft {
+    padding: 10px;
     flex: 2;
 }
 
 .bRight {
+    padding: 10px;
     flex: 1;
+    background-image: url("../images/rockywall.png");
+}
+
+@media screen and (max-width: 600px) {
+    .bLeft,
+    .bRight {
+        flex: 0 0 100%;
+    }
 }

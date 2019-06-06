@@ -5,10 +5,10 @@ import Footer from "../components/footer"
 
 export default ({children}) => (
     <div className={layoutStyles.main}>
-        <Header className={layoutStyles.header} />
+        <Header />
         <div className={layoutStyles.container}>
             {children}
         </div>
-        <Footer className={layoutStyles.footer} />
+        <Footer />
     </div>
 )

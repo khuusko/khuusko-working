@@ -1,0 +1,21 @@
+.siteHeader {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 600px) {
+    .headerItem1 {
+        flex: 0 0 100%;
+        order: 1;
+        text-align: center;
+    }
+    .headerItem2,
+    .headerItem3 {
+        flex: 1;
+        order: 2;
+        text-align: center;
+    }
+}

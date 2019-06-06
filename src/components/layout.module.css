@@ -1,4 +1,9 @@
-header, footer {
+.main {
+    max-width: 18000px;
+    padding: 0 20px 0 20px;
+}
+
+footer {
     width: 100%;
 }
 
@@ -8,5 +13,19 @@ header, footer {
 }
 
 .pageContent {
-    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pHead {
+    flex: 0 0 100%;
+}
+
+.bLeft {
+    flex: 2;
+}
+
+.bRight {
+    flex: 1;
 }

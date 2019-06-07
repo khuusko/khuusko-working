@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     align-items: baseline;
     margin: 10px 0 30px 0;
+    border-bottom: 2px dotted silver;
 }
 
 @media screen and (max-width: 600px) {

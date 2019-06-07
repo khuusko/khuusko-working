@@ -4,13 +4,13 @@ import footerStyles from "./footer.module.css"
 export default () => (
     <footer className={footerStyles.siteFooter}>
         <div className={footerStyles.footerItem1}>
-            Instagram
+            <div>Instagram</div>
         </div>
         <div className={footerStyles.footerItem2}>
-            Twitter
+            <div>Twitter</div>
         </div>
         <div className={footerStyles.footerItem3}>
-            Youtube
+            <div>Youtube</div>
         </div>
     </footer>
 )

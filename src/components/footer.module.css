@@ -1,9 +1,11 @@
 .siteFooter {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    margin: auto 0 0 0;
+    /*outline: 2px dotted silver;*/
     background-color: white;
+    background-image: url("../images/morocco-blue.png");
+    min-height: 200px;
 }
 
 .footerItem1,

@@ -1,11 +1,8 @@
 .main {
+    display: flex;
+    flex-direction: column;
     max-width: 18000px;
-    padding: 0 20px 0 20px;
     height: 100%;
-}
-
-footer {
-    width: 100%;
 }
 
 .container {
@@ -19,6 +16,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
+    margin: 0 20px 0 20px;
 }
 
 .pHead {
@@ -33,7 +31,7 @@ footer {
 .bRight {
     padding: 10px;
     flex: 1;
-    background-image: url("../images/rockywall.png");
+    border-left:  2px dotted silver;
 }
 
 @media screen and (max-width: 600px) {

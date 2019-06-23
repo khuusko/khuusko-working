@@ -16,6 +16,10 @@
     max-width: 250px;
 }
 
+.headerItem1 a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
     .headerItem1 {
         flex: 0 0 100%;

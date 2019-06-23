@@ -9,7 +9,7 @@ export default () => (
             <Link to="/about/">About</Link>
         </div>
         <div className={headerStyles.headerItem1}>
-            <img src={logo} className={headerStyles.logoImg} alt="glasses-logo" />
+            <Link to="/"><img src={logo} className={headerStyles.logoImg} alt="glasses-logo" /></Link>
         </div>
         <div className={headerStyles.headerItem3}>
             <Link to="/blog/">Blog</Link>

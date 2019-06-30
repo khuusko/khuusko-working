@@ -1,9 +1,11 @@
 import React from "react"
 import Container from "../components/layout"
 import layoutStyles from "../components/layout.module.css"
+import Instagram from "../components/instagram"
 
 export default () => (
     <Container>
+        <Instagram/>
         <div className={layoutStyles.pageContent}>
             <div className={layoutStyles.bLeft}>
                 <h2>Index</h2>

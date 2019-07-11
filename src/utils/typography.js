@@ -1,7 +1,7 @@
 import Typography from "typography"
-import fairyGateTheme from "typography-theme-fairy-gates"
+import elkGlenTheme from "typography-theme-elk-glen"
 
-const typography = new Typography(fairyGateTheme)
+const typography = new Typography(elkGlenTheme)
 
 export const { scale, rhythm, options } = typography
 export default typography

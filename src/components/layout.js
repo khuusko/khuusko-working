@@ -1,7 +1,7 @@
 import React from "react"
-import layoutStyles from "./layout.module.css"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import layoutStyles from "./layout.module.css"
 
 export default ({children}) => (
     <div className={layoutStyles.main}>

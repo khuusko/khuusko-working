@@ -4,9 +4,17 @@
 }
 
 .card {
-
+    max-width: 33%;
 }
 
 .card img {
     margin: 0;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .card {
+        max-width: 50%;
+        max-width: 50%;
+    }
 }

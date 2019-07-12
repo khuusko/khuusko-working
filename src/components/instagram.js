@@ -5,7 +5,8 @@ class Instagram extends Component {
     constructor() {
         super()
         this.state = {
-            images: []
+            images: [],
+            loading: true
         }
     }
 
@@ -14,7 +15,7 @@ class Instagram extends Component {
         .then(res => res.json())
         .then(res => {
             const {data} = res
-            this.setState({ images: data })
+            this.setState({ images: data, loading: false })
         })
         .catch(console.log)
     }
@@ -22,6 +23,7 @@ class Instagram extends Component {
     render() {
         return (
             <div className={imageStyles.cards}>
+                {this.state.loading ? <p>Loading</p> : ""}
                 {this.state.images.map(item =>
                     <div className={imageStyles.card}>
                         <img key={item.id} src={item.images.standard_resolution.url} alt="Instagram" />

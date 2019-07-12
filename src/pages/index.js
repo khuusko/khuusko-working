@@ -1,13 +1,14 @@
 import React from "react"
 import Container from "../components/layout"
-import layoutStyles from "../components/layout.module.css"
 import Instagram from "../components/instagram"
+import layoutStyles from "../components/layout.module.css"
+import fontStyles from "../components/fonts.module.css"
 
 export default () => (
     <Container>
         <div className={layoutStyles.pageContent}>
             <div className={layoutStyles.bLeft}>
-                <h2>Hello there.</h2>
+                <h2 className={fontStyles.frontPageH2}>Hello there.</h2>
                 <p>
                     I'm Kaisa. This is my website. Surprised, huh?
                 </p>
@@ -19,7 +20,7 @@ export default () => (
                 </p>
             </div>
             <div className={layoutStyles.bRight}>
-                <h2>Social</h2>
+                <h2 className={fontStyles.frontPageH2}>Social</h2>
                 <Instagram />
             </div>
         </div>

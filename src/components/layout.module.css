@@ -34,7 +34,15 @@
     border-left:  2px dotted silver;
 }
 
-@media screen and (max-width: 600px) {
+a {
+    background-image: none;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+@media screen and (max-width: 800px) {
     .bLeft,
     .bRight {
         flex: 0 0 100%;

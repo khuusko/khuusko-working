@@ -1,9 +1,9 @@
 import React from "react"
 import Container from "../components/layout"
-import PageHeader from "../components/pageHeader"
+import fontStyles from "../components/fonts.module.css"
 
 export default () => (
     <Container>
-            <PageHeader headerText="About" />
+            <h2 className={fontStyles.frontPageH2}>About</h2>
     </Container>
 )
